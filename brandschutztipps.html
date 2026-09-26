@@ -6,7 +6,46 @@
 <title>Brandschutztipps & Feuerlöscher-Infos | Brandschutz Zagler</title>
 <meta name="description" content="Praktische Brandschutztipps und Informationen über Feuerlöscher von Brandschutz Zagler in Baden.">
 
-<style>
+.brandklasse {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 15px 0;
+  border-bottom: 1px solid #e3e9f5;
+}
+
+.brandklasse:last-child {
+  border-bottom: none;
+}
+
+.brandklasse p {
+  margin: 0;
+}
+
+.brandklasse-symbol {
+  flex: 0 0 76px;
+  width: 76px;
+  height: 88px;
+  background: white;
+  border: 2px solid #2345a8;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+
+.brandklasse-symbol svg {
+  width: 34px;
+  height: 40px;
+}
+
+.brandklasse-symbol strong {
+  color: #2345a8;
+  font-size: 25px;
+  line-height: 1;
+}<style>
 * { box-sizing: border-box; }
 
 body {
